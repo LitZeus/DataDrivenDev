@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Online Voting System",
+    "image": "https://i.imgur.com/RWensjL.png",
+    "description": "An online voting system leveraging PHP, SQL, JavaScript, and CSS for seamless and secure digital voting experiences.",
+    "tags": ["php", "SQL", "javascript", "css"],
+    "source_code": "https://github.com/tejasathalye/online-voting",
+    "demo": ""
+  },
+
+  {
+    "id": 2,
+    "name": "CineSenseAI",
+    "image": "https://i.imgur.com/GxaTnwR.png",
+    "description": "AI-powered movie recommendations using machine learning and cosine similarity for personalized suggestions.",
+    "tags": ["python", "javascript", "AJAX", "html", ""],
+    "source_code": "https://github.com/tejasathalye/CineSenseAI",
+    "demo": ""
+  },
+
+  {
+    "id": 3,
+    "name": "Userify",
+    "image": "https://i.imgur.com/EF9VgqN.png",
+    "description": "A Node.js and Express.js-based user management project facilitating CRUD operations for user profiles.",
+    "tags": ["node.js", "express.js", "javascript", "mongodb", "ejs", "css"],
+    "source_code": "https://github.com/tejasathalye/NodeUserify",
+    "demo": ""
+  }
+  
+]
