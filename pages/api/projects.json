@@ -27,6 +27,15 @@
     "tags": ["node.js", "express.js", "javascript", "mongodb", "ejs", "css"],
     "source_code": "https://github.com/tejasathalye/NodeUserify",
     "demo": ""
+  },
+
+  {
+    "id": 4,
+    "name": "DataDrivenDev",
+    "image": "https://i.imgur.com/3Lm15au.png",
+    "description": "A portfolio built with React, Node, Next.js, CSS, and PostgreSQL, showcasing my full-stack skills and creativity, inspired by the VSCode IDE.",
+    "tags": ["react","node.js", "next.js", "javascript", "postgreSQL", "css"],
+    "source_code": "https://github.com/tejasathalye/DataDrivenDev",
+    "demo": "https://tejasathalyeportfolio.vercel.app/"
   }
-  
 ]

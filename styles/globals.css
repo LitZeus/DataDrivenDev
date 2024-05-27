@@ -10,94 +10,106 @@
 
 /* Tags */
 .react {
-  border: 0.1rem solid rgb(97, 218, 251);
+  border: 1.9px solid rgb(97, 218, 251);
 }
 .react:hover {
   background: rgba(97, 218, 251, 0.25);
 }
 
 .css {
-  border: 0.1rem solid rgb(25, 233, 188);
+  border: 1.9px solid rgb(25, 233, 188);
 }
 .css:hover {
   background: rgba(54, 189, 194, 0.25);
 }
 
 .python{
-  border: 0.1rem solid rgb(171, 14, 233);
+  border: 1.9px solid rgb(171, 14, 233);
 }
 .python:hover {
   background: rgba(122, 44, 173, 0.25);
 }
 
 .html {
-  border: 0.1rem solid rgb(35, 209, 29);
+  border: 1.9px solid rgb(35, 209, 29);
 }
 .html:hover {
   background: rgba(131, 205, 41, 0.25);
 }
 
 .AJAX {
-  border: 0.1rem solid rgb(252, 169, 15);
+  border: 1.9px solid rgb(252, 169, 15);
 }
 .AJAX:hover {
   background: rgba(248, 181, 57, 0.25);
 }
 
 .javascript {
-  border: 0.1rem solid rgb(244, 248, 7);
+  border: 1.9px solid rgb(244, 248, 7);
 }
 .javascript:hover {
   background: rgba(212, 210, 84, 0.25);
 }
 
 .material-ui {
-  border: 0.1rem solid rgb(25, 118, 210);
+  border: 1.9px solid rgb(25, 118, 210);
 }
 .material-ui:hover {
   background: rgba(25, 118, 210, 0.25);
 }
 
 .php {
-  border: 2px solid rgb(0, 112, 243);
+  border: 1.9px solid rgb(0, 112, 243);
 }
 .php:hover {
   background: rgba(0, 112, 243, 0.25);
 }
 
 .SQL {
-  border: 2px solid rgb(238, 48, 48);
+  border: 1.9px solid rgb(238, 48, 48);
 }
 .SQL:hover {
   background: rgba(218, 36, 36, 0.25);
 }
 
 .node\.js {
-  border: 2px solid rgb(39, 240, 116);
+  border: 1.9px solid rgb(39, 240, 116);
 }
 .node\.js:hover {
   background: rgba(33, 189, 79, 0.25);
 }
 
 .express\.js {
-  border: 2px solid rgb(110, 110, 110);
+  border: 1.9px solid rgb(110, 110, 110);
 }
 .express\.js:hover {
   background: rgba(234, 240, 236, 0.25);
 }
 
 .mongodb{
-  border: 2px solid rgb(161, 35, 134);
+  border: 1.9px solid rgb(161, 35, 134);
 }
 .mongodb:hover {
   background: rgb(71, 13, 66);
 }
 
 .ejs{
-  border: 2px solid rgb(236, 181, 0);
+  border: 1.9px solid rgb(236, 181, 0);
 }
 .ejs:hover {
   background: rgb(133, 103, 22);
 }
 
+.next\.js {
+  border: 1.9px solid rgb(119, 0, 255);
+}
+.next\.js:hover {
+  background: rgb(49, 31, 59);
+}
 
+.postgreSQL{
+  border: 1.9px solid rgb(148, 9, 39);
+}
+.postgreSQL:hover {
+  background: rgba(112, 20, 40, 0.459);
+}
