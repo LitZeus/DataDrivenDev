@@ -19,7 +19,7 @@ const sidebarTopItems = [
   },
   {
     Icon: MailIcon,
-    path: '/contact',
+    url: 'mailto:tejasathalye.nbnstic.comp@gmail.com',
   },
   {
     Icon: LinkedInIcon,
