@@ -14,7 +14,7 @@ const contactItems = [
   {
     social: 'LinkedIn',
     link: 'tejasathalye',
-    href: 'https://www.linkedin.com/in/tejas-athalye-62a53823a/',
+    href: 'https://www.linkedin.com/in/tejasathalye/',
   },
   {
     social : 'Whatsapp',

@@ -23,7 +23,7 @@ const sidebarTopItems = [
   },
   {
     Icon: LinkedInIcon,
-    url: 'https://www.linkedin.com/in/tejas-athalye-62a53823a/',
+    url: 'https://www.linkedin.com/in/tejasathalye/',
   },
 ];
 
