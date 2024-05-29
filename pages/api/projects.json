@@ -36,6 +36,6 @@
     "description": "A portfolio built with React, Node, Next.js, CSS, and PostgreSQL, showcasing my full-stack skills and creativity, inspired by the VSCode IDE.",
     "tags": ["react","node.js", "next.js", "javascript", "postgreSQL", "css"],
     "source_code": "https://github.com/tejasathalye/DataDrivenDev",
-    "demo": "https://tejasathalyeportfolio.vercel.app/"
+    "demo": "https://tejasathalye.vercel.app"
   }
 ]
