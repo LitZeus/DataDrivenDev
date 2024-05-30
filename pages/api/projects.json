@@ -16,7 +16,7 @@
     "description": "AI-powered movie recommendations using machine learning and cosine similarity for personalized suggestions.",
     "tags": ["python", "javascript", "AJAX", "html", ""],
     "source_code": "https://github.com/tejasathalye/CineSenseAI",
-    "demo": ""
+    "demo": "https://cinesenseai.onrender.com/"
   },
 
   {
