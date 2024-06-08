@@ -88,17 +88,6 @@
   cursor: pointer;
 }
 
-.outlined {
-  font-size: 1.25rem;
-  padding: 0.5rem 1rem;
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
-  color: #eee;
-  border: 2px solid var(--accent-color);
-  background: transparent;
-  cursor: pointer;
-}
-
 .resumebutton{
   background: var(--accent-color);
   font-size: 1.25rem;
@@ -110,7 +99,6 @@
 }
 
 .button:hover,
-.outlined:hover,
 .resumebutton:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -138,9 +126,7 @@
   .button {
     font-size: 2rem;
   }
-  .outlined {
-    font-size: 2rem;
-  }
+  
   .illustration {
     height: 900px;
     width: 700px;
@@ -219,9 +205,7 @@
   .button {
     font-size: 1rem;
   }
-  .outlined {
-    font-size: 1rem;
-  }
+ 
   .illustration {
     position: absolute;
     bottom: 0;

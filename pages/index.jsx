@@ -25,16 +25,16 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Tejas Athalye</h1>
             <h6 className={styles.bio}>Analyst By Data; Developer By Code.</h6>
-            <Link href="/projects">
-              <button className={styles.button}>View Work</button>
-            </Link>
-            <Link href="/contact">
-              <button className={styles.outlined}>Contact Me</button>
-            </Link>
             <button className={styles.resumebutton} onClick={handleButtonClick}>
               Resume
             </button>
             {showPopup && <Popup onClose={handleClosePopup} />}
+            <Link href="/projects">
+              <button className={styles.button}>View Work</button>
+            </Link>
+            <Link href="/contact">
+              <button className={styles.button}>Contact Me</button>
+            </Link>
           </div>
         </div>
       </div>
