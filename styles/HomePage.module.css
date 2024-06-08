@@ -92,6 +92,8 @@
   background: var(--accent-color);
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
   color: #eee;
   font-weight: 600;
   border: none;
