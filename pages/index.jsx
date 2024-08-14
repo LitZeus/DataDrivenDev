@@ -1,19 +1,7 @@
-import { useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/HomePage.module.css';
-import Popup from '../components/Popup';
 
 export default function HomePage() {
-  const [showPopup, setShowPopup] = useState(false);
-
-  const handleButtonClick = () => {
-    setShowPopup(true);
-  };
-
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
-
   return (
     <>
       <div className={styles.container}>
@@ -25,10 +13,14 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Tejas Athalye</h1>
             <h6 className={styles.bio}>Analyst By Data; Developer By Code.</h6>
-            <button className={styles.resumebutton} onClick={handleButtonClick}>
+            <a
+              href="https://drive.google.com/file/d/1MBQcF_QMz0mKk2a0zKaJ7UvWNOgOya60/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.resumebutton}
+            >
               Resume
-            </button>
-            {showPopup && <Popup onClose={handleClosePopup} />}
+            </a>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>

@@ -1,18 +1,6 @@
-import { useState } from 'react';
 import styles from '../styles/HomePage.module.css';
-import Popup from '../components/Popup';
 
 const AboutPage = () => {
-  const [showPopup, setShowPopup] = useState(false);
-
-  const handleButtonClick = () => {
-    setShowPopup(true);
-  };
-
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
-
   return (
     <>
       <h2>A Little Bit About Me</h2>
@@ -23,10 +11,14 @@ const AboutPage = () => {
       <br />
       <p>Beyond my professional pursuits, I am an avid sports enthusiast and a three-time Maharashtra state Gold medalist in Karate. Competing in the National Games thrice has taught me perseverance, focus, and discipline—qualities I bring to all areas of my life and work.</p>
       <br /><br />
-      <button className={styles.resumebutton} onClick={handleButtonClick}>
+      <a
+        href="https://drive.google.com/file/d/1MBQcF_QMz0mKk2a0zKaJ7UvWNOgOya60/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.resumebutton}
+      >
         Resume
-      </button>
-      {showPopup && <Popup onClose={handleClosePopup} />}
+      </a>
     </>
   );
 };
