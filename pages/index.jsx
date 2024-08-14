@@ -14,10 +14,10 @@ export default function HomePage() {
             <h1 className={styles.name}>Tejas Athalye</h1>
             <h6 className={styles.bio}>Analyst By Data; Developer By Code.</h6>
             <a
-              href="https://drive.google.com/file/d/1MBQcF_QMz0mKk2a0zKaJ7UvWNOgOya60/view?usp=sharing"
+              href="https://drive.google.com/file/d/1A4n8wmFdE_Fk1tOXHKtmInPujBdOQOwV/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.resumebutton}
+              className={styles.button}
             >
               Resume
             </a>
