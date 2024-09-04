@@ -1,4 +1,3 @@
-import styles from '../styles/HomePage.module.css';
 
 const AboutPage = () => {
   return (
@@ -11,14 +10,11 @@ const AboutPage = () => {
       <br />
       <p>Beyond my professional pursuits, I am an avid sports enthusiast and a three-time Maharashtra state Gold medalist in Karate. Competing in the National Games thrice has taught me perseverance, focus, and discipline—qualities I bring to all areas of my life and work.</p>
       <br /><br />
-      <a
-        href="https://drive.google.com/file/d/1A4n8wmFdE_Fk1tOXHKtmInPujBdOQOwV/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.button}
-      >
+      <button onclick="window.open('/resume.pdf', '_blank')" style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer;">
         Resume
-      </a>
+      </button>
+
+
     </>
   );
 };
