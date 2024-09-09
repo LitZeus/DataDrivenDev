@@ -13,14 +13,7 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Tejas Athalye</h1>
             <h6 className={styles.bio}>Analyst By Data; Developer By Code.</h6>
-            <a
-              href="https://drive.google.com/file/d/1A4n8wmFdE_Fk1tOXHKtmInPujBdOQOwV/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.button}
-            >
-              Resume
-            </a>
+            <button className={styles.button} onClick={() => window.open('/resume.pdf', '_blank')}>Resume</button>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>
